@@ -7,7 +7,7 @@
 
 # Files Included:
 
-* `List.java` - Implementation of a List ADT
+* `List.java` - Implementation of a List ADT.
 * `ListTest.java` - Tests List ADT functions.
 * `Matrix.java` - Implementation of a Matrix ADT.
 * `MatrixTest.java` - Tests Matrix ADT functions.
