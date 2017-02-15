@@ -13,4 +13,3 @@
 * `MatrixTest.java` - Tests Matrix ADT functions.
 * `Sparse.java` -	Implements scanner/writer with `Matrix.java`. Arranges the Matrices from the input file and writes the Matrices & their operations to the output file.
 * `Makefile` - Creates an executable jar file called Sparse.
-* `README`
