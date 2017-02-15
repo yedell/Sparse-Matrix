@@ -210,9 +210,9 @@ public class Matrix {
 					}
 					if (bEntry == null || aEntry != null && aEntry.col < bEntry.col) { // aEntry column < bEntry column
 						result.changeEntry(i, aEntry.col, aEntry.value); // If aEntry column less, then bEntry must have a zero entry in place.
-						A.moveNext();									 // So we store aEntry value - 0, which is just aEntry value
+						A.moveNext();					 // So we store aEntry value - 0, which is just aEntry value
 					} else if (aEntry == null || bEntry != null && bEntry.col < aEntry.col) { // If aEntry column greater, then it must have a zero entry in place
-						result.changeEntry(i, bEntry.col, bEntry.value);					  // so we must store bEntry value
+						result.changeEntry(i, bEntry.col, bEntry.value);		  // so we must store bEntry value
 						B.moveNext();
 					} else {
 						result.changeEntry(i, aEntry.col, aEntry.value + bEntry.value); // aEntry column == bEntry column, add normally
@@ -257,10 +257,10 @@ public class Matrix {
 				}
 				if (bEntry == null || aEntry != null && aEntry.col < bEntry.col) { // aEntry column < bEntry column
 					result.changeEntry(i, aEntry.col, aEntry.value); // If aEntry column less, then bEntry must have a zero entry in place.
-					A.moveNext();									 // So we store aEntry value - 0, which is just aEntry value
+					A.moveNext();					 // So we store aEntry value - 0, which is just aEntry value
 				} else if (aEntry == null || bEntry != null && aEntry.col > bEntry.col) { // aEntry column > bEntry column
 					result.changeEntry(i, bEntry.col, -1 * bEntry.value); // If aEntry column greater, then it must have a zero entry in place
-					B.moveNext();										  // so we must subtract bEntry.value from zero (or * by -1)
+					B.moveNext();					      // so we must subtract bEntry.value from zero (or * by -1)
 				} else {
 					result.changeEntry(i, aEntry.col, aEntry.value - bEntry.value); // aEntry column == bEntry column, subtract normally
 					A.moveNext();
