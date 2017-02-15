@@ -1,6 +1,6 @@
 //-----------------------------------------------------------------------------
 // Matrix.java
-// Implementation of Matrix ADT
+// Implementation of Matrix ADT via Doubly Linked Lists
 //
 // Yona Edell
 // CruzID: yedell
