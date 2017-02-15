@@ -305,9 +305,9 @@ public class List {
 			deleteBack();
 		} else {
 			cursor.prev.next = cursor.next; // Previous node points to the
-											// cursor's next node
+							// cursor's next node
 			cursor.next.prev = cursor.prev; // Node after target points to
-											// target's previous node
+							// target's previous node
 			length--;
 			index = -1;
 			cursor = null;
