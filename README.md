@@ -7,11 +7,15 @@
 
 # Files Included:
 
-* `List.java` -         Written by me. This is a header file (contains only declarations) for a doubly linked list.
-* `ListTest.java` -	Written by me. This file tests List ADT functions.
-* `Matrix.java` -  	Written by me. This is file is an implementation of a Matrix ADT.
-* `MatrixTest.java` -  	Written by me. This is file tests Matrix ADT functions.
-* `Sparse.java` -	Written by me. This file implements scanner/writer with `Matrix.java`.
-			Arranges the Matrices from the input file and writes the Matrices & their operations to the output file.
+* `List.java`         
+  * Implementation of a List ADT
+* `ListTest.java`      
+  * Tests List ADT functions.
+* `Matrix.java`  	
+  * Implementation of a Matrix ADT.
+* `MatrixTest.java`
+  * Tests Matrix ADT functions.
+* `Sparse.java` -	
+  * Implements scanner/writer with `Matrix.java`. Arranges the Matrices from the input file and writes the Matrices & their operations to     the output file.
 * `Makefile` - 		Provided on webpage; unaltered.
-* `README` - 		Written by me.
+* `README`
