@@ -1,9 +1,9 @@
 # Programming Assignment 3 - README
 
-###Yona Edell
-###CruzID: yedell
-###CMPS 101
-###02/01/2017
+### Yona Edell
+### CruzID: yedell
+### CMPS 101
+### 02/01/2017
 
 # Files Included:
 
